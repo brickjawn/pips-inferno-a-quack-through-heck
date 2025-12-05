@@ -1,0 +1,35 @@
+{
+    "name": "Pip's Inferno: A Quack Through Heck",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "controller": "*",
+        "browser-events": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "tsconfig.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.62",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
